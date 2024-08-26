@@ -34,14 +34,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/AmmarDownloader/app/src/main/java/com/ammar/downloader/MainActivity.java",
       "selection": {
         "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 15,
+          "index": 477,
+          "line": 15
         },
         "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 15,
+          "index": 477,
+          "line": 15
         }
       }
     }

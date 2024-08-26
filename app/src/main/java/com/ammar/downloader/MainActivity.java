@@ -13,6 +13,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        // test
     }
 
     @Override
