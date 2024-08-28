@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace 'com.ammar.downloader'
-    compileSdk 33
+    compileSdk 34
     
     defaultConfig {
         applicationId "com.ammar.downloader"
         minSdk 23
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
         
@@ -39,4 +39,6 @@ android {
     
 }
 
-
+dependencies {
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+}
