@@ -13,7 +13,11 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        // test
+        
+        binding.download.setOnClickListener(v -> {
+            Downloader.download(binding.url.getText().toString());
+        });
+        
     }
 
     @Override
